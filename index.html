@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#5b5ce2">
+  <meta name="description" content="Tiny Champ: playful puzzles and learning adventures for little explorers.">
+  <title>Tiny Champ</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-btn" id="homeBtn" aria-label="Home">⌂</button>
+      <div class="brand"><span class="brand-crown">♛</span> TINY CHAMP</div>
+      <div class="top-actions">
+        <div class="star-pill">⭐ <span id="starCount">0</span></div>
+        <button class="icon-btn" id="parentBtn" aria-label="Parent area">⚙</button>
+      </div>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer>PLAY • LEARN • GROW <span>♥</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script type="module" src="/game.js"></script>
+</body>
+</html>
